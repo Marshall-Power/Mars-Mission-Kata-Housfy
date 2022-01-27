@@ -1,0 +1,15 @@
+{
+  "name": "prueba-housfy",
+  "version": "0.0.1",
+  "description": "Mars Rover Mission Task for Housfy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "Marcel Planas",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
