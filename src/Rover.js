@@ -1,6 +1,5 @@
 class Rover {
     constructor(location, direction, grid, obstacles) {
-        
         this.x = (location === undefined) ? 0 : location[0]
         this.y = (location === undefined) ? 0 : location[1]
         this.directions = ['N', 'E', 'S', 'W']
@@ -9,7 +8,6 @@ class Rover {
         this.obstacles = (obstacles === undefined) ? [] : obstacles
     }
 
-    
 
     commands(commands) {
         if(commands === undefined) {
@@ -72,7 +70,6 @@ class Rover {
 
             return true
         }
-
     }
 
     turnRover(command) {
@@ -94,12 +91,7 @@ class Rover {
             }
             
         }
-    }
-
-    checkAhead() {
-
-    }
-    
+    }  
 }
 
 module.exports = {

@@ -19,3 +19,6 @@ possible point, aborts the sequence and reports the obstacle.
 
 # Take into account
 ● Rovers are expensive, make sure the software works as expected
+
+
+To start run npm init
