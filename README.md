@@ -1,3 +1,12 @@
+
+
+To start run npm init 
+npm run test to run tests
+
+//TODO Refractor methods for more division
+//TODO Add visual interface
+//TODO Comment code
+
 # Mars-Rover-Mission
 You’re part of the team that explores Mars by sending remotely controlled vehicles to the surface of the planet. Develop a software that translates the commands sent from earth to instructions that are understood by the rover.
 
@@ -21,4 +30,3 @@ possible point, aborts the sequence and reports the obstacle.
 ● Rovers are expensive, make sure the software works as expected
 
 
-To start run npm init and then npm run test to run tests
