@@ -119,4 +119,14 @@ describe('Mars Rover', function() {
             expect(MarsRover.y).toBe(2)
         })
     })
+
+    describe('If the rover goes out of bounds it appears at the other side of the grid', function() {
+        test('Rover tries to go out of bounds but appears at the other side', () => {
+            const MarsRover = new Rover([0, 0], 'S', [10, 10])
+            MarsRover.commands('FRF')
+                
+            expect(MarsRover.x).toBe(10)
+            expect(MarsRover.y).toBe(10)
+        })
+    })
 })

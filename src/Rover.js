@@ -68,6 +68,17 @@ class Rover {
             this.x = nextPos[0]
             this.y = nextPos[1]
 
+            if(this.x < 0) {
+                this.x = this.grid[0]
+            } else if(this.x > this.grid[0]) {
+                this.x = 0
+            } else if(this.y < 0) {
+                this.y = this.grid[0]
+            } else if(this.y > this.grid[0]) {
+                this.y = 0
+            }
+            
+
             return true
         }
     }

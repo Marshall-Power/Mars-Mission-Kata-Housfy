@@ -20,5 +20,7 @@ possible point, aborts the sequence and reports the obstacle.
 # Take into account
 ● Rovers are expensive, make sure the software works as expected
 
+//TODO Check Rover doesn't go out of bounds
+//TODO If rover goes goes out of bounds he appears in the other side
 
-To start run npm init
+To start run npm init and then npm run test to run tests
